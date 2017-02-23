@@ -1,0 +1,6 @@
+{
+  "name": "card-form",
+  "short_name": "card-form",
+  "start_url": "/",
+  "display": "standalone"
+}

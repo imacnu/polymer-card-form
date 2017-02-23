@@ -1,0 +1,51 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-material/paper-material.html">
+
+<link rel="import" href="../checkout-form/checkout-form.html">
+
+
+<dom-module id="card-form-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      body {
+        font-family: 'helvetica';
+        font-size: 14px;
+        margin: 0;
+        padding: 24px;
+        background-color: #FAFAFA;
+      }
+
+      .card {
+        background: #FFFFFF;
+        max-width: 400px;
+        padding: 24px;
+        margin: 0 auto;
+      }
+
+      .card h3 {
+        font-family: Helvetica, sans-serif;
+        font-weight: 200;
+      }
+    </style>
+    <paper-material id="paper" class="card" elevation="1">
+      <h3>Card validator form</h3>
+      <checkout-form id="form"></checkout-form>
+    </paper-material>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'card-form-app',
+
+      properties: {
+
+      }
+
+    });
+  </script>
+</dom-module>
