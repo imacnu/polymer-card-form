@@ -5,7 +5,11 @@
     "polymer": "Polymer/polymer#^1.4.0",
     "paper-material": "polymerelements/paper-material#^1.0.6",
     "paper-input": "polymerelements/paper-input#^1.1.23",
-    "iron-form": "polymerelements/iron-form#^1.1.4"
+    "iron-form": "polymerelements/iron-form#^1.1.4",
+    "gold-cc-input": "polymerelements/gold-cc-input#^1.0.7",
+    "gold-email-input": "polymerelements/gold-email-input#^1.0.9",
+    "gold-cc-cvc-input": "polymerelements/gold-cc-cvc-input#^1.0.9",
+    "gold-cc-expiration-input": "polymerelements/gold-cc-expiration-input#^1.1.3"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
